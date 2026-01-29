@@ -1,7 +1,7 @@
 // Function to contact via WhatsApp with product name
 function contactWhatsApp(producto) {
     const mensaje = `Hola, me interesa el producto: ${producto}. ¿Podrías darme más información?`;
-    const url = `https://wa.me/5492615551234?text=${encodeURIComponent(mensaje)}`;
+    const url = `https://wa.me/2612773162?text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank');
 }
 
