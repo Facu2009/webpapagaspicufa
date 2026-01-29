@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andes PC | Componentes y Armado de PC en Mendoza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">ANDES PC</a>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#paquetes">Paquetes PC</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="https://wa.me/5492615551234" class="cta-button">Consultar</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Armamos tu PC ideal en Mendoza</h1>
+            <p>Componentes de calidad, armado profesional y soporte técnico especializado para gamers, profesionales y empresas.</p>
+            <div class="hero-buttons">
+                <a href="#paquetes" class="btn-primary">Ver Paquetes PC</a>
+                <a href="https://wa.me/5492615551234" class="btn-secondary">Consultar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="servicios">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-subtitle">Soluciones profesionales para todas tus necesidades tecnológicas</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Armado de PC</h3>
+                <p>Armamos tu computadora personalizada según tus necesidades y presupuesto. Incluye instalación de sistema operativo y configuración inicial.</p>
+                <div class="service-price">Desde $8.000</div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Mantenimiento</h3>
+                <p>Limpieza profunda, cambio de pasta térmica, actualización de drivers y optimización del sistema para máximo rendimiento.</p>
+                <div class="service-price">$5.000/mes</div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🆙</div>
+                <h3>Upgrades</h3>
+                <p>Mejoramos tu PC actual con componentes nuevos. Asesoramiento incluido sobre la mejor relación precio-rendimiento.</p>
+                <div class="service-price">A consultar</div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Soporte Técnico</h3>
+                <p>Diagnóstico y reparación de problemas de hardware y software. Atención presencial y remota disponible.</p>
+                <div class="service-price">Desde $3.000</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="productos">
+        <h2 class="section-title">Componentes Destacados</h2>
+        <p class="section-subtitle">Productos de calidad con stock garantizado por nuestros proveedores</p>
+        
+        <div class="products-category">
+            <h3 class="category-title">Procesadores</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">🔲</div>
+                    <div class="product-info">
+                        <div class="product-name">Intel Core i5-13400F</div>
+                        <div class="product-specs">10 núcleos, 20 hilos | Socket LGA1700</div>
+                        <div class="product-price">$185.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('Intel Core i5-13400F')">Consultar</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">🔲</div>
+                    <div class="product-info">
+                        <div class="product-name">AMD Ryzen 5 5600</div>
+                        <div class="product-specs">6 núcleos, 12 hilos | Socket AM4</div>
+                        <div class="product-price">$145.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('AMD Ryzen 5 5600')">Consultar</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">🔲</div>
+                    <div class="product-info">
+                        <div class="product-name">Intel Core i7-13700K</div>
+                        <div class="product-specs">16 núcleos, 24 hilos | Socket LGA1700</div>
+                        <div class="product-price">$380.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('Intel Core i7-13700K')">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="products-category">
+            <h3 class="category-title">Placas de Video</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">🎮</div>
+                    <div class="product-info">
+                        <div class="product-name">NVIDIA RTX 4060</div>
+                        <div class="product-specs">8GB GDDR6 | 1080p Gaming</div>
+                        <div class="product-price">$420.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('NVIDIA RTX 4060')">Consultar</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">🎮</div>
+                    <div class="product-info">
+                        <div class="product-name">AMD RX 7600</div>
+                        <div class="product-specs">8GB GDDR6 | 1080p Gaming</div>
+                        <div class="product-price">$380.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('AMD RX 7600')">Consultar</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">🎮</div>
+                    <div class="product-info">
+                        <div class="product-name">NVIDIA RTX 4070 Super</div>
+                        <div class="product-specs">12GB GDDR6X | 1440p Gaming</div>
+                        <div class="product-price">$780.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('NVIDIA RTX 4070 Super')">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="products-category">
+            <h3 class="category-title">Memorias RAM</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">💾</div>
+                    <div class="product-info">
+                        <div class="product-name">Corsair Vengeance 16GB</div>
+                        <div class="product-specs">DDR4 3200MHz | 2x8GB</div>
+                        <div class="product-price">$65.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('Corsair Vengeance 16GB')">Consultar</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">💾</div>
+                    <div class="product-info">
+                        <div class="product-name">Kingston Fury 32GB</div>
+                        <div class="product-specs">DDR5 5600MHz | 2x16GB</div>
+                        <div class="product-price">$145.000</div>
+                        <button class="product-contact" onclick="contactWhatsApp('Kingston Fury 32GB')">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PC Packages -->
+    <section id="paquetes">
+        <h2 class="section-title">Paquetes PC Completas</h2>
+        <p class="section-subtitle">Equipos listos para usar, optimizados según tu necesidad</p>
+        
+        <div class="packages-grid">
+            <div class="package-card">
+                <h3 class="package-name">PC Gaming Básica</h3>
+                <div class="package-price">$650.000</div>
+                <ul class="package-specs">
+                    <li>AMD Ryzen 5 5600</li>
+                    <li>16GB RAM DDR4</li>
+                    <li>RX 6600 8GB</li>
+                    <li>SSD 500GB NVMe</li>
+                    <li>Fuente 600W 80+ Bronze</li>
+                    <li>Gabinete ATX con RGB</li>
+                </ul>
+                <button class="product-contact" onclick="contactWhatsApp('PC Gaming Básica')">Consultar</button>
+            </div>
+            
+            <div class="package-card featured">
+                <div class="package-tag">MÁS VENDIDA</div>
+                <h3 class="package-name">PC Gaming Media</h3>
+                <div class="package-price">$950.000</div>
+                <ul class="package-specs">
+                    <li>Intel Core i5-13400F</li>
+                    <li>16GB RAM DDR5</li>
+                    <li>RTX 4060 8GB</li>
+                    <li>SSD 1TB NVMe</li>
+                    <li>Fuente 700W 80+ Gold</li>
+                    <li>Gabinete Premium RGB</li>
+                </ul>
+                <button class="product-contact" onclick="contactWhatsApp('PC Gaming Media')">Consultar</button>
+            </div>
+            
+            <div class="package-card">
+                <h3 class="package-name">PC Gaming Alta</h3>
+                <div class="package-price">$1.500.000</div>
+                <ul class="package-specs">
+                    <li>Intel Core i7-13700K</li>
+                    <li>32GB RAM DDR5</li>
+                    <li>RTX 4070 Super 12GB</li>
+                    <li>SSD 2TB NVMe Gen4</li>
+                    <li>Fuente 850W 80+ Gold</li>
+                    <li>Gabinete Premium RGB</li>
+                </ul>
+                <button class="product-contact" onclick="contactWhatsApp('PC Gaming Alta')">Consultar</button>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f0f9ff; border-radius: 12px;">
+            <h3 style="color: #1e40af; margin-bottom: 1rem;">✨ Todos los paquetes incluyen:</h3>
+            <p style="color: #475569; font-size: 1.1rem;">Armado profesional • Instalación de Windows • Configuración optimizada • Pruebas de estabilidad • Garantía de compatibilidad • Soporte post-venta</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contacto">
+        <h2 class="section-title">Contactanos</h2>
+        <p class="section-subtitle">Estamos para asesorarte y armar tu presupuesto personalizado</p>
+        
+        <div class="contact-grid">
+            <div class="contact-method">
+                <div class="contact-icon">📱</div>
+                <h3>WhatsApp</h3>
+                <p>Respondemos consultas de 9:00 a 20:00hs</p>
+                <a href="https://wa.me/5492615551234?text=Hola,%20quiero%20consultar%20sobre..." class="contact-link">Enviar mensaje</a>
+            </div>
+            
+            <div class="contact-method">
+                <div class="contact-icon">📧</div>
+                <h3>Email</h3>
+                <p>Te respondemos en menos de 24 horas</p>
+                <a href="mailto:contacto@andespc.com" class="contact-link" style="background: #2563eb;">Enviar email</a>
+            </div>
+            
+            <div class="contact-method">
+                <div class="contact-icon">📍</div>
+                <h3>Mendoza Capital</h3>
+                <p>Entregamos y brindamos soporte en toda la provincia</p>
+                <a href="https://wa.me/5492615551234" class="contact-link">Coordinar entrega</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#">📷</a>
+                <a href="#">📘</a>
+                <a href="#">▶️</a>
+            </div>
+            <div class="footer-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#productos">Productos</a>
+                <a href="#paquetes">Paquetes</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <p style="color: #9ca3af; margin-top: 2rem;">&copy; 2026 Andes PC. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5492615551234?text=Hola,%20quiero%20consultar%20sobre..." class="whatsapp-float">💬</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
