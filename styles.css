@@ -475,6 +475,134 @@ footer {
     transform: scale(1.1);
 }
 
+/* Custom Request Section */
+.custom-request-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.custom-request-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.custom-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.custom-request-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.custom-request-card p {
+    color: #6b7280;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.custom-features {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-features li {
+    padding: 0.8rem 0;
+    color: #4b5563;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.custom-features i {
+    color: #2563eb;
+    font-size: 1.1rem;
+}
+
+.custom-request-form-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.custom-request-form-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #374151;
+    font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.9rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.submit-button:hover {
+    background: #20BA5A;
+}
+
+.form-note {
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
@@ -496,5 +624,9 @@ footer {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+    }
+    
+    .custom-request-container {
+        grid-template-columns: 1fr;
     }
 }
